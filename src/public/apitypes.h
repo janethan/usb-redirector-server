@@ -17,29 +17,29 @@
 #else
 #include <stdint.h>
 #endif
-typedef int8_t llIIIlllII;typedef int16_t lIIIllllII;typedef int32_t llllIlllII;
-typedef int64_t IlIIlllllI;typedef uint8_t lIllIl;typedef uint16_t IlllIl;
-typedef uint32_t IIIIl;typedef uint64_t IlIIlI;typedef int BOOL;
+typedef int8_t IIlllIllII;typedef int16_t IIIIIllllI;typedef int32_t llllllIlll;
+typedef int64_t IlIlIlIlII;typedef uint8_t lIllIl;typedef uint16_t lIllll;
+typedef uint32_t lllII;typedef uint64_t llIIII;typedef int BOOL;
 #ifndef __KERNEL__
 #include <semaphore.h>
-typedef sem_t*IlIlIlIlll;
+typedef sem_t*lIIIllllII;
 #endif
 #ifndef TRUE
-#define TRUE (0x83d+4759-0x1ad3)
+#define TRUE (0x81+9538-0x25c2)
 #endif
 #ifndef FALSE
-#define FALSE (0x13c3+12-0x13cf)
+#define FALSE (0x1052+4081-0x2043)
 #endif
 #ifndef __KERNEL__
 #include <endian.h>
 #include <byteswap.h>
 #if __BYTE_ORDER == __BIG_ENDIAN
 #define lIIIIlIII(IIIIlI) lIIlIIlll((IIIIlI))
-#define lIllIIllI(IIIIlI) IllllIIIlI((IIIIlI))
-#define IIlllIlII(IIIIlI) IIIlIlIlI((IIIIlI))
+#define lIllIIllI(IIIIlI) llllIIlllI((IIIIlI))
+#define IIlllIlII(IIIIlI) lllIIIIII((IIIIlI))
 #define IIllIIIlI(IIIIlI) lIIlIIlll((IIIIlI))
-#define IIlIIlllI(IIIIlI) IllllIIIlI((IIIIlI))
-#define lllIIlIlI(IIIIlI) IIIlIlIlI((IIIIlI))
+#define IIlIIlllI(IIIIlI) llllIIlllI((IIIIlI))
+#define lllIIlIlI(IIIIlI) lllIIIIII((IIIIlI))
 #else
 #define lIIIIlIII(IIIIlI) (IIIIlI)
 #define lIllIIllI(IIIIlI) (IIIIlI)
