@@ -1,5 +1,5 @@
 # 
-# Copyright (C) 2008-2020 SimplyCore LLC
+# Copyright (C) 2008-2021 SimplyCore LLC
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -9,7 +9,7 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=usb-redirector-server
-PKG_VERSION:=3.9.3
+PKG_VERSION:=3.9.8
 
 PKG_BUILD_DIR:=$(KERNEL_BUILD_DIR)/$(PKG_NAME)-$(PKG_VERSION)
 
